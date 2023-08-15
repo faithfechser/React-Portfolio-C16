@@ -1,22 +1,20 @@
-import React from 'react'
+import React from 'react';
 
-const NavBar = () => {
-    return <nav className="nav">
-        <ul>
-            <li>
-                <a href="./AboutME">About Me</a>
-            </li>
-            <li>
-                <a href="./Portfolio">Portfolio</a>
-            </li>
-            <li>
-                <a href="./Resume">Resume</a>
-            </li>
-            <li>
-                <a href="./ContactMe">Contact</a>
-            </li>
-        </ul>
+function NavBar({ setCurrentPage }) {
+  const handleNavClick = (page) => {
+    setCurrentPage(page);
+  };
+
+  return (
+    <nav className='nav'>
+      <ul>
+        <li onClick={() => handleNavClick("aboutMe")}>About Me</li>
+        <li onClick={() => handleNavClick("portfolio")}>Portfolio</li>
+        <li onClick={() => handleNavClick("resume")}>Resume</li>
+        <li onClick={() => handleNavClick("contactMe")}>Contact</li>
+      </ul>
     </nav>
+  );
 }
 
-export default NavBar
+export default NavBar;
