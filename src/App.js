@@ -7,22 +7,24 @@ import ContactMe from './components/pages/ContactMe';
 import Resume from './components/pages/Resume';
 import Portfolio from './components/pages/Portfolio';
 import NavBar from './components/NavBar';
-//Routing for different pages?
+
 function App() {
   console.log("rendering!")
   const [currentPage, setCurrentPage] = useState("aboutMe")
   console.log(currentPage)
+
   return (
     <div className="Portfolio">
-      <Header/>
-      <NavBar/>
-      {currentPage === "aboutMe" ? <AboutMe/> : <></>}
-      {currentPage === "contact" ? <ContactMe/> : <></>}
-      {currentPage === "portfolio" ? <Portfolio/> : <></>}
-      {currentPage === "resume" ? <Resume/> : <></>}
-      <Footer/>
+      <Header />
+      <NavBar setCurrentPage={setCurrentPage} />
+      {currentPage === "aboutMe" ? <AboutMe /> : <></>}
+      {currentPage === "contact" ? <ContactMe /> : <></>}
+      {currentPage === "portfolio" ? <Portfolio /> : <></>}
+      {currentPage === "resume" ? <Resume /> : <></>}
+      <Footer />
     </div>
   );
 }
 
 export default App;
+
