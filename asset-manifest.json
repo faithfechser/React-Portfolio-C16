@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-portfolio-C16/static/css/main.b85d1823.css",
+    "main.js": "/react-portfolio-C16/static/js/main.74dd2bb7.js",
+    "static/media/FaithFechserResume.jpg": "/react-portfolio-C16/static/media/FaithFechserResume.25d2fcbdd91a148ceb11.jpg",
+    "static/media/Faith-Fechser-Resume.pdf": "/react-portfolio-C16/static/media/Faith-Fechser-Resume.6552549ad767c593a0da.pdf",
+    "static/media/Faith_pfp.jpg": "/react-portfolio-C16/static/media/Faith_pfp.e2cf74e8f408505713fe.jpg",
+    "index.html": "/react-portfolio-C16/index.html",
+    "main.b85d1823.css.map": "/react-portfolio-C16/static/css/main.b85d1823.css.map",
+    "main.74dd2bb7.js.map": "/react-portfolio-C16/static/js/main.74dd2bb7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b85d1823.css",
+    "static/js/main.74dd2bb7.js"
+  ]
+}
