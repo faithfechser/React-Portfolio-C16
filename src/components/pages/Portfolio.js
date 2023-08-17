@@ -3,6 +3,7 @@ import featuredPH from './assets/Featured-Place-Holder.jpg'
 import projectPH from './assets/Project-Place-Holder.jpg'
 
 const portfolioProjects = [
+    // Featured projects
     {
         title: 'Fitness in your Schedule',
         github: 'https://github.com/faithfechser/Fitness-in-your-Schedule',
@@ -21,6 +22,7 @@ const portfolioProjects = [
         deployed: 'https://blakee-37.github.io/404-Found/',
         image: featuredPH,
     },
+    // General projects
     {
         title: 'Quode Quiz',
         github: 'https://github.com/faithfechser/Code-Quiz-C4',
