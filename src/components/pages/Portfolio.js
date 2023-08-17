@@ -49,11 +49,38 @@ const portfolioProjects = [
 
 function Portfolio() {
     return (
+        // Portfolio div
         <div className='portfolio'>
+            {/* Page Title */}
             <h2>Portfolio</h2>
-            <h3>Featured Projects</h3>
-            <h3>All Projects</h3>
-        </div>
+            {portfolioProjects.map((app, index) => (
+                <div className='projectContainer' key={index}>
+                    {/* Project Images */}
+                    <img src={app.image} alt={app.title} className={index === 0 ? 'featuredPH' : 'projectPH'}/>
+                    <div className='project-titles'>
+                        <h3 className='titles'>{app.title}</h3>
+                        {/* Project Links */}
+                        <div className='project-links'>
+                            {/* Application Link */}
+                            <div>
+                                <a href={app.deployed} target='_blank' rel='noopener noreferrer'>
+                                    Application
+                                </a>
+                            </div>
+                            {/* Github Link */}
+                            <div>
+                                <a href={app.github} target='_blank' rel='noopener noreferrer'>
+                                    GitHub
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            ))}
+    </div>
+        
     );
 }
 
