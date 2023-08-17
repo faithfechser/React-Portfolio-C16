@@ -72,6 +72,13 @@
 .portfolio{
     color: var(--text);
     padding: 30px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.portfolio img{
+    width: 250px;
 }
 
 /* Resume */
