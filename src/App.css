@@ -1,15 +1,23 @@
+:root {
+    --text: #171817;
+    --main: #007649;
+    /* --mainAccent: #1c7e52; */
+    /* --buttons: #55868C; */
+    --background: #e4ece8;
+}
+
 * {
     box-sizing: border-box;
 }
 
 .body{
-    background-color: rgb(228, 236, 232);
+    background-color: var(--background);
     margin: 0;
 }
 /* Header styling */
 .header {
-    background-color: rgb(28, 126, 82);
-    color:white;
+    background-color: var(--main);
+    color: var(--background);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,8 +27,8 @@
 }
 /* Navigation styling */
 .nav {
-    background-color: rgb(28, 126, 82);
-    color:white;
+    background-color: var(--main);
+    color:var(--background);
     display: flex;
     justify-content: space-between;
     align-items: left;
@@ -34,33 +42,59 @@
     list-style: none;
     display: flex;
     gap: 1rem;
+    cursor: pointer;
 }
 
 .nav a {
     color: inherit;
     text-decoration: none;
 }
+
 /* Page styling */
+/* About Me */
 .aboutMe{
+    color: var(--text);
     padding: 30px 20px;
 }
 
+.aboutMe img{
+    height:150px;
+}
+
+/* Contact Me */
 .contactMe{
+    color: var(--text);
     padding: 30px 20px;
 }
 
+/* Portfolio */
 .portfolio{
+    color: var(--text);
     padding: 30px 20px;
 }
 
+/* Resume */
 .resume{
+    color: var(--text);
     padding: 30px 20px;
 }
 
+.resume img{
+    height: 750px;
+}
+
+.resume a{
+    text-decoration: none;
+    color: var(--background);
+    background-color: var(--main);
+    padding: 20px;
+    border-radius: 15px;
+    align-items: center;
+}
 /* Footer styling */
 .footer {
-    background-color: rgb(28, 126, 82);
-    color:white;
+    background-color: var(--main);
+    color:var(--background);
     display: flex;
     justify-content: space-between;
     align-items: left;
