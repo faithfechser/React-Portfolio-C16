@@ -18,7 +18,7 @@ function App() {
       <Header />
       <NavBar setCurrentPage={setCurrentPage} />
       {currentPage === "aboutMe" ? <AboutMe /> : <></>}
-      {currentPage === "contact" ? <ContactMe /> : <></>}
+      {currentPage === "contactMe" ? <ContactMe /> : <></>}
       {currentPage === "portfolio" ? <Portfolio /> : <></>}
       {currentPage === "resume" ? <Resume /> : <></>}
       <Footer />
