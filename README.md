@@ -3,7 +3,7 @@
 
 ## Description
 
-
+Hello and welcome to my portfolio! This is just a place meant to display my work and tell a little about myself. You can check out projects I've made, read and download my resume, as well as reach out to contact me.
 
 ## Table of Contents
 - [Usage](#usage)
@@ -15,19 +15,23 @@
 
 ## Usage
 
+A website to see information on Faith Fechser and her work.
+Deployed Links: 
+https://faithfechser.github.io/React-Portfolio-C16/
+https://faithfechserportfolio-9b6a50c4bf15.herokuapp.com/
 
 
 ## Installation
 
-
+Create-react-app was used to develop the base of this project
 
 ## Credits & Contributions
 
-
+Faith Fechser
 
 ## Tests
 
-
+n/a
 
 ## Questions
 
