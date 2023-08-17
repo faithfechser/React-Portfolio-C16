@@ -2,7 +2,7 @@
   "name": "name-of-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://faithfechser.github.io/react-portfolio-C16",
+  "homepage": "https://faithfechser.github.io/React-Portfolio-C16",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
