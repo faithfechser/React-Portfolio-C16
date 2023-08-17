@@ -1,11 +1,11 @@
 import React from 'react';
 
-function ContactMe() {
+function contactMe() {
     return (
         <div className='contactMe'>
-            <h2>Contact Form</h2>
+            <h2>Contact Me</h2>
         </div>
     );
 }
 
-export default ContactMe
+export default contactMe
